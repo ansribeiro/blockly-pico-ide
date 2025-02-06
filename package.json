@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ansribeiro/blockly-pico-ide#readme",
   "description": "",
   "dependencies": {
-    "blockly": "^11.2.1"
+    "blockly": "^11.2.1",
+    "express": "^4.21.2"
   }
 }
