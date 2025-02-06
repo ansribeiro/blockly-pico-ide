@@ -1,0 +1,28 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="node_modules/blockly/blockly_compressed.js"></script>
+  <script src="node_modules/blockly/blocks_compressed.js"></script>
+  <script src="node_modules/blockly/javascript_compressed.js"></script>
+  <script src="node_modules/blockly/msg/js/en.js"></script>
+  <style>
+    body { margin: 0; }
+    #blocklyDiv { height: 500px; width: 100%; }
+    .blocklySvg { height: 100%; width: 100%; }
+  </style>
+</head>
+<body>
+  <div id="blocklyDiv"></div>
+  <xml id="toolbox" style="display: none">
+    <block type="controls_if"></block>
+    <block type="logic_compare"></block>
+    <block type="math_number"></block>
+  </xml>
+  <script>
+    const workspace = Blockly.inject('blocklyDiv', {
+      toolbox: document.getElementById('toolbox'),
+    });
+  </script>
+</body>
+</html>
