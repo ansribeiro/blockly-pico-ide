@@ -1,0 +1,23 @@
+{
+  "name": "blockly-pico-ide",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ansribeiro/blockly-pico-ide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ansribeiro/blockly-pico-ide/issues"
+  },
+  "homepage": "https://github.com/ansribeiro/blockly-pico-ide#readme",
+  "description": "",
+  "dependencies": {
+    "blockly": "^11.2.1"
+  }
+}
